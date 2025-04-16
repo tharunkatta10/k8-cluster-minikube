@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - name: wisecow-container
-        image: tharunkatta10/wisecow-node-app:latest  # Replace with your image
+        image: tharunkatta10/k8-cluster
         ports:
-        - containerPort: 3000
+        - containerPort: 80
+
